@@ -2703,6 +2703,9 @@ h2 {
     display: none;
 }
 
+    .bit {
+        margin-top: 60px;
+    }
     
     .merchandise__item-img{
         max-width: 60px;
