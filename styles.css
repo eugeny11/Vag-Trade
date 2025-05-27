@@ -383,6 +383,11 @@ h2 {
 
 }
 
+.hero__section__content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .hero__list{
     margin-top: 25px;
     font-size: 20px;
@@ -1850,6 +1855,10 @@ h2 {
         font-size: 24px;
     }
 
+    .hero__section__content h2 {
+    font-size: 28px;
+}
+
     .hero__list{
         font-size: 18px;
     }
@@ -2195,6 +2204,10 @@ h2 {
     .hero__section__content {
         max-width: 480px;
     }
+
+    .hero__section__content h2 {
+    font-size: 24px;
+}
 
     .hero__slide {
         padding: 0;
@@ -2618,12 +2631,14 @@ h2 {
 
     .hero__section {
         background: url(img/background__700.png) 50% / auto no-repeat;
-    }
-
-    .hero__section {
         padding-top: 50px;
         padding-bottom: 20px;
         margin-top: 0;
+    }
+
+
+      .hero__section__content h2 {
+        font-size: 20px;
     }
 
     .catalogue__right{
