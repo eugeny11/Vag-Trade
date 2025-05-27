@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basket popup</title>
+</head>
+<body>
+    <div class="basket__popup">
+        <div class="basket__popup__content">
+            <div class="popup__content__header">
+                <span>Оформить заказ</span><img src="img/icons/x.svg" alt="x">
+            </div>
+            <div class="merchandise">
+                <div class="merchandise__item">
+                    <div class="merchandise__item__info">
+                        <img class="merchandise__item-img" src="img/basket__merch.png" alt="merchandise__item-img">
+                        <div class="mechadise__item__chars">
+                            <div class="item__chars-title">
+                                Руль
+                            </div>
+                            <div class="item__chars-desc">
+                                Антихром VOLKSWAGEN
+                            </div>
+                            <div class="item__chars-footer">
+                                <div class="chars-footer-counter">
+                                    <span class="counter counter--minus">-</span>
+                                    <span class="counter counter--digit">1</span>
+                                    <span class="counter counter--plus">+</span>
+                                </div>
+                                <div class="item__chars-price">35 000 ₽</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <img src="img/icons/x.svg" alt="x">
+                </div>
+                <div class="separator"></div>
+                <div class="merchandise__item">
+                    <div class="merchandise__item__info">
+                        <img class="merchandise__item-img" src="img/basket__merch.png" alt="merchandise__item-img">
+                        <div class="mechadise__item__chars">
+                            <div class="item__chars-title">
+                                Руль
+                            </div>
+                            <div class="item__chars-desc">
+                                Антихром VOLKSWAGEN
+                            </div>
+                            <div class="item__chars-footer">
+                                <div class="chars-footer-counter">
+                                    <span class="counter counter--minus">-</span>
+                                    <span class="counter counter--digit">1</span>
+                                    <span class="counter counter--plus">+</span>
+                                </div>
+                                <div class="item__chars-price">35 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/icons/x.svg" alt="x">
+                </div>
+                <div class="separator"></div>
+                <div class="merchandise__final">
+                    <span>Итого</span> <span>70 000 ₽</span>
+                </div>
+            </div>
+            <form class="bid__form bid__form--basket" action="#" method="POST">
+                        <div class="bid__form__fields">
+                            <input type="text" name="name" placeholder="Ваше имя" required class="bid__form__input" />
+                            <input type="tel" name="phone" placeholder="+7 (000) 000-00-00" required class="bid__form__input" />
+                            <div class="bid__form__select">
+                                <div class="bid__form__selected">
+                                    <span>Как с вами связаться? (тг, звонок и т.д)</span>
+                                    <img class="bid__form__selected-img" src="img/arrow__down.svg" alt="arrow down">
+                                </div>
+                                <input type="tel" name="phone" placeholder="Тип связи" class="bid__form__input bid__form__input--dropdown" />
+                            </div>
+                            <label class="bid__form__checkbox">
+                                <input type="checkbox" name="privacy" required />
+                                <span class="checkbox__custom"></span>
+                                <span>Даю согласие на обработку персональных данных</span>
+                            </label>
+                            
+                        </div>
+                        
+                        <button type="submit" class="bid__form__submit">Отправить заявку</button>
+                       
+            </form>
+        </div>
+    </div>
+    <script src="basket.js"></script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Catalogue</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__upper">
+            <div class="container">
+                    <div class="header__upper__content">
+                        <div class="header__upper__left">
+                            <a href="#">
+                                <img class="header__logo" src="img/logo.svg" alt="logo">
+                            </a>
+                            <button class="catalogue-btn" id="catalogue-btn">
+                                <span class="catalogue-burger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <span>Каталог</span>
+                            </button>
+                        </div>
+                        <div class="header__upper__center">
+                            <input type="text" placeholder="Поиск">
+                                <button type="submit" class="search-btn">
+                                    <img src="img/icons/search.svg" alt="search">
+                                </button>
+                        </div>
+                        
+                        <div class="header__upper__right">
+                           
+                            <div class="header__icons__block">
+                                <img class="header-icon" src="img/icons/basket.svg" alt="basket">
+                                <span class="icon-badge">0</span>
+                            </div>
+                            <div class="header__icons__block">
+                                <img class="header-icon" src="img/icons/heart.svg" alt="like">
+                                <span class="icon-badge">0</span>
+                            </div>
+                       
+                            <a href="#" class="header__phone-btn">
+                                8 (911) 768-34-00
+                            </a>
+                            
+                                <div class="social social--telegram">
+                                    <a href="#">
+                                        <img src="img/icons/telegram.svg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="social social--vk">
+                                    <a href="#">
+                                        <img src="img/icons/vk.svg" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                            <div class="catalogue__popup" id="catalogue__popup">
+                                <div class="catalogue__popup__content">
+                                     <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-1.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                                Магнитолы
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                                Блоки Carplay Audi / VW / Porshe
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                                Skoda
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                                Volkswagen
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-2.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                                Камеры
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Оригинал
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                                Аналог
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-3.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                                Рули
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               BMW
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                                Audi
+                                            </a>
+                                             <a href="#" class="popup__list-point">
+                                                Volkswagen
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-4.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                                Аксессуары
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Насадки на глушитель
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-5.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                                Ручки КПП
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Ручки с подсветкой
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-6.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Лин адаптеры
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-7.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Подушки безопасности
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-8.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Доп оборудование
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Виртуальные приборные панели
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Подрулевые блоки и стрекозы
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-9.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Фары и фонари
+                                            </a>
+                                            <a href="#" class="popup__list-point">
+                                               Фары
+                                            </v>
+                                            <a href="#" class="popup__list-point">
+                                               Фонари
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-10.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Колёса
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="catalogue__popup-item">
+                                        <img class="popup__item-img" src="img/catalogue/small/small-10.png" alt="img">
+                                        <div class="popup__item__list">
+                                            <a href="#" class="popup__list-title">
+                                               Товары без категории
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div>
+                    
+                    
+            </div>
+                
+        </div>
+
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom__content">
+                    <ul class="header__bottom__menu">
+                        <li class="header__bottom__menu-item"><a class="header__bottom__menu-link" href="#">Каталог товаров</a></li>
+                        <li class="header__bottom__menu-item"><a class="header__bottom__menu-link" href="#">О компании</a></li>
+                        <li class="header__bottom__menu-item"><a class="header__bottom__menu-link" href="#">Доставка и Оплата</a></li>
+                        <li class="header__bottom__menu-item"><a class="header__bottom__menu-link" href="#">Контакты</a></li>
+                    </ul>
+                    <div class="header__bottom__address">
+                        Приезжайте или заказывайте онлайн. Москва: Краснобогатырская, 2/23, СПБ: Крыленко, 2а
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__mob">
+            <div class="container">
+                <div class="header__mob__content">
+                    <img src="img/logo__mob.svg" alt="" class="header__mob__logo">
+                    <div class="header__mob__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header__mob__menu">
+                    <div class="header__mob__menu-item"><a class="header__mob__menu-link" href="#">Главная</a></div>
+                    <div class="header__mob__menu-item"><a class="header__mob__menu-link" href="#">Каталог товаров</a></div>
+                    <div class="header__mob__menu-item"><a class="header__mob__menu-link" href="#">О компании</a></div>
+                    <div class="header__mob__menu-item"><a class="header__mob__menu-link" href="#">Доставка и оплата</a></div>
+                    <div class="header__mob__menu-item"><a class="header__mob__menu-link" href="#">Контакты</a></div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__content">
+                    <span>Главная</span> / <span>Каталог</span>
+                </div>
+            </div>     
+        </div>
+        <section class="full__catalogue">
+            <div class="container">
+                <div class="full__catalogue__content">
+                    <h1>Каталог продуктов</h1>
+                  
+                        <div class="full__catalogue__columns">
+                            <aside class="full__catalogue__aside">
+                                <div class="aside__catalogue">
+                                    <div class="full__aside__title">
+                                    Каталог
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-1.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Магнитолы</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-2.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Камеры</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-3.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Аксессуары</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-4.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Рули</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-5.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Ручки КПП</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-6.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Подушки безопасности</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-7.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Доп оборудование</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-8.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Фары и фонари</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-9.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Лин адаптеры</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-10.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Колёса</div>
+                                </div>
+                                <div class="full__aside__item">
+                                    <img class="full__aside-pic" src="img/catalogue/small/small-11.png" alt="" class="full__aside-pic">
+                                    <div class="full__aside-title">Товары без категории</div>
+                                </div>
+                                </div>
+                            </aside>
+                            <div class="hits__block__wrapper">
+
+                                    <div class="catalogue__select">
+                                        <div class="select__selected">
+                                            <span>Рули</span><img src="img/select-arrow.svg" alt="">
+                                        </div>
+                                        <div class="select__dropdown">
+                                            <span>Рули</span>
+                                            <span>Рули</span>
+                                            <span>Рули</span>
+                                        </div>
+                                    </div>
+                                    <div class="hits__block hits__block--catalogue">
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div>
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div>
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div>
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div>
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div>
+                                            <div class="hits__block__item">
+                                                <img src="img/hit.png" alt="" class="hits__block__img">
+                                                <div class="hits__item__title">
+                                                    Антихром <span>Volkswagen</span>
+                                                </div>
+                                                <div class="hits__item__desc">
+                                                    Подогрев, полный антихром руля, удобная спортивная анатомия, круиз на руле, подушка безопасности в коже
+                                                </div>
+                                                <div class="hits__item__footer">
+                                                    <a class="hits__button" href="#">Подробнее</a>
+                                                    <div class="hits__price">35 000 ₽</div>
+                                                </div>
+                                                <img src="img/icons/heart_small.svg" alt="heart_icon" class="hits__icon">
+                                            </div> 
+
+                                    </div>            
+                        
+                                    <div class="pagination">
+                                        <div class="pagination__links">
+                                            <div class="pagination-arrow">
+                                                <img src="img/page-arrow-prev.svg" alt="arrow prev">
+                                            </div>
+                                            <a href="#" class="pagination-number active">1</a>
+                                            <a href="#" class="pagination-number">2</a>
+                                            <a href="#" class="pagination-number">3</a>
+                                            <a href="#" class="pagination-number">...</a>
+                                            <a href="#" class="pagination-number">9</a>
+                                            <div class="pagination-arrow">
+                                                <img src="img/page-arrow-next.svg" alt="arrow next">
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                            
+                            </div>
+                    </div>
+            </div>
+            
+        </section>
+       <section class="bid">
+            <div class="container">
+                <div class="bid__content">
+                    <h2>Не знаете, что выбрать?</h2>
+                    <p>Оставьте заявку - перезвоним в течении 15 минут и ответим на все вопросы!</p>
+                    <form class="bid__form" action="#" method="POST">
+                        <div class="bid__form__fields">
+                            <input type="text" name="name" placeholder="Ваше имя" required class="bid__form__input" />
+                            <input type="tel" name="phone" placeholder="+7 (000) 000-00-00" required class="bid__form__input" />
+                            <label class="bid__form__checkbox">
+                            <input type="checkbox" name="privacy" required />
+                            <span class="checkbox__custom"></span>
+                            <span>Даю согласие на обработку персональных данных</span>
+                        </label>
+                            
+                        </div>
+                        
+                        <button type="submit" class="bid__form__submit">Отправить заявку</button>
+                       
+                    </form>
+
+                </div>
+            </div>
+        </section>   
+    </main>
+    <footer class="footer footer--about">
+        <div class="container">
+            <div class="footer__content">
+                <aside class="footer__left">
+                    <a href="#">
+                        <img class="footer__logo" src="img/footer__logo.svg" alt="footer logo">
+                    </a>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social footer__social-phone">
+                            8 (911) 768-34-00
+                        </a>
+                        <a href="#" class="footer__social footer__social-web">
+                            <img src="img/icons/vk.svg" alt="">
+                        </a>
+                        <a href="#" class="footer__social footer__social-web">
+                            <img src="img/icons/telegram.svg" alt="">
+                        </a>
+                    </div>
+                </aside>
+                <div class="footer__main">
+                     
+                         <ul class="footer__links footer__links--navigation">
+                            <span class="footer__links-title">
+                                Навигация
+                            </span>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Главная</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Каталог товаров</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Доставка и Оплата</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">О компании</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Контакты</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Отзывы</a></li>
+                    </ul>
+                     
+                      
+                         <ul class="footer__links footer__links--catalogue">
+                            <span class="footer__links-title">
+                                Каталог
+                            </span>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Ручки КПП</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Магнитолы</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Аксессуары</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Фары и фонари</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Доп оборудование</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Подушки безопасности</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Рули</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Колёса</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Камеры</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Лин адаптеры</a></li>
+                            <li class="footer__links-item"><a class="footer__links-link" href="#">Товары без категории</a></li>
+                        </ul>
+                      
+                   
+                       
+                            <ul class="footer__links footer__links--contacts">
+                                <span class="footer__links-title">
+                                    Контакты
+                                </span>
+                                <li class="footer__links-item"><a class="footer__links-link" href="#">8 (911) 768-34-00</a></li>
+                                <li class="footer__links-item"><a class="footer__links-link" href="#">test@test.ru</a></li>
+                                <li class="footer__links-item"><a class="footer__links-link" href="#">г. Москва: Краснобогатырская, 2/23
+                                г. Санкт-Петербург: Крыленко, 2а</a></li>
+                            </ul>
+                       
+                    
+                </div>
+               
+            </div>
+            <div class="footer__footer">
+                <a class="footer__footer-link" href="#">© 2025 VAGTRADE</a>
+                <a class="footer__footer-link" href="#">Политика обработки персональных данных</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
