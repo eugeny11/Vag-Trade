@@ -353,6 +353,27 @@ h2 {
     background: url('img/hero__section.png') center/cover no-repeat;
 }
 
+.hero__wrapper {
+  display: flex; 
+   width: 300vw;
+  transition: transform 0.5s ease; 
+}
+
+.hero__slider {
+    width: 100%;
+  overflow: hidden; 
+  position: relative;
+}
+
+
+
+.hero__slide {
+  width: 100vw; 
+  background: none;
+  padding: 135px 0 20px; 
+}
+
+
 .hero__section__content{
     max-width: 590px;
     width: 100%;
@@ -404,7 +425,8 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-top: 140px;
+    margin: 140px auto 0;
+    width: fit-content;
 }
 
 .points-item{
@@ -420,7 +442,7 @@ h2 {
 
 .slider__button {
     position: absolute;
-    top: 40%;;
+    top: 50%;
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -2144,12 +2166,20 @@ h2 {
     }
 
     .hero__section{
-        background: url('img/background__700.png') center/auto no-repeat;
+        background: url('img/background__700.png') right center/cover no-repeat;
     }
 
     .hero__section__content {
         max-width: 480px;
     }
+
+    .hero__slide {
+        padding: 0;
+    }
+
+        .slider__button{
+            display: none;
+        }
 
     .catalogue__content{
         text-align: left;
@@ -2252,7 +2282,7 @@ h2 {
         align-items: start;
     }
 
-       .card__chars {
+    .card__chars {
     max-width: 342px;
  }
 
@@ -2468,6 +2498,11 @@ h2 {
             align-items: flex-end;
         }
 
+        .hero__section {
+            background: url(img/background__700.png) center / cover no-repeat;
+        }
+
+
         .delivery__title {
         font-size: 25px;
         }
@@ -2634,6 +2669,7 @@ h2 {
     display: none;
 }
 
+    
     .merchandise__item-img{
         max-width: 60px;
     }
@@ -2704,8 +2740,6 @@ h2 {
     max-width: 140px;
     justify-content: unset;
 }
-
-
 
 .card__gallery-secondary{
     gap:0px;
