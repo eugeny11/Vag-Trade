@@ -2096,9 +2096,14 @@ h2 {
         text-align: center;
     }
 
-    .works__block {
-        justify-content: center;
+    .works__block{
+        gap: 10px;
     }
+
+    .works__block-item {
+        max-width: 349px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -2299,6 +2304,8 @@ h2 {
         gap: 15px;
         align-items: start;
     }
+
+    
 
     .card__chars {
     max-width: 342px;
