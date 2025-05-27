@@ -2499,9 +2499,8 @@ h2 {
         }
 
         .hero__section {
-            background: url(img/background__700.png) center / cover no-repeat;
+            background: url(img/background__700.png) 65% center / cover no-repeat;
         }
-
 
         .delivery__title {
         font-size: 25px;
@@ -2565,6 +2564,17 @@ h2 {
 }
 
 @media (max-width: 460px){
+
+    .hero__section {
+        background: url(img/background__700.png) 50% / auto no-repeat;
+    }
+
+    .hero__section {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
     .catalogue__right{
         flex-direction: column;
         align-items: center;
