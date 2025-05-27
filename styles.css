@@ -2388,6 +2388,10 @@ h2 {
         height: 22px;
      }
 
+     .reviews{
+        margin-top: 60px;
+     }
+
     .reviews__item:nth-child(3){
         display: none;
     }
@@ -2708,6 +2712,14 @@ h2 {
         display: flex;
         justify-content: start;
         border-radius: 7px;
+    }
+
+    .reviews{
+        margin-top: 60px;
+    }
+
+    .works {
+        margin-top: 60px;
     }
 
     .works__content h2 {
