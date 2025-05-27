@@ -2356,6 +2356,18 @@ h2 {
         max-width: 349px;
     }
 
+    .delivery__item__title{
+        margin-top: 44px;
+    }
+
+    .works {
+        margin-top: 80px;
+    }
+
+    .works__content h2{
+        font-size: 18px;
+    }
+
     .contacts-title{
         font-size: 20px;
     }
@@ -2723,6 +2735,11 @@ h2 {
     }
 
     .works__content h2 {
+        font-size: 16px;
+    }
+
+    .delivery__item__title{
+        margin-top: 38px;
         font-size: 16px;
     }
 
