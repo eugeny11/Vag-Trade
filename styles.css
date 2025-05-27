@@ -2541,6 +2541,10 @@ h2 {
             align-items: center;
         }
 
+        .works__block{
+            justify-content: center;
+        }
+
         .footer__main{
             width: 100%;
         }
@@ -2704,6 +2708,10 @@ h2 {
         display: flex;
         justify-content: start;
         border-radius: 7px;
+    }
+
+    .works__content h2 {
+        font-size: 16px;
     }
 
     .catalogue__select--brand{
